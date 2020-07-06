@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Blur = (props) => {
+    let clss = `blur ${props.anm}`;
     return (
-        <div className="blur"></div>        
+        <div className={clss}></div>        
     )
 }
 

@@ -148,7 +148,9 @@ body {
   z-index: 50;
   opacity: 0;
   transition: all .3s ease-in-out;
-  
+  &_anm {
+    opacity: 1 !important;
+  }
 }
 
 .sec {
